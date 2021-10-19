@@ -1,0 +1,6 @@
+.nav__links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 10%;
+}
