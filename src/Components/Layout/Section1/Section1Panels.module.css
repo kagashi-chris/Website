@@ -1,0 +1,8 @@
+.panels {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  grid-template-columns: repeat(3, 1fr);
+}

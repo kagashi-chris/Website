@@ -5,9 +5,9 @@ import classes from "./HeaderNav.module.css";
 const HeaderNav = () => {
   return (
     <ul className={classes.nav__links}>
-      <HeaderNavElement />
-      <HeaderNavElement />
-      <HeaderNavElement />
+      <HeaderNavElement navName="Skills" />
+      <HeaderNavElement navName="Software" />
+      <HeaderNavElement navName="Projects" />
     </ul>
   );
 };

@@ -1,14 +1,15 @@
 import React from "react";
 import Section1PanelElement from "./Section1PanelElement";
-
-// import panelImage from "../../assets/placeholderpanel.jpg";
+// import classes from "../../../general.css";
+import panelImg from "../../../assets/placeholderpanel.jpg";
+import classes from "./Section1Panels.module.css";
 
 const Section1Panel = () => {
   return (
-    <div>
-      <Section1PanelElement />
-      <Section1PanelElement />
-      <Section1PanelElement />
+    <div className={classes.panels}>
+      <Section1PanelElement panelImg={panelImg} />
+      <Section1PanelElement panelImg={panelImg} />
+      <Section1PanelElement panelImg={panelImg} />
     </div>
   );
 };
