@@ -4,3 +4,8 @@
   list-style: none;
   padding-right: 5rem;
 }
+
+.nav__links:link,
+.nav__links:visited {
+  font-size: 3rem;
+}
