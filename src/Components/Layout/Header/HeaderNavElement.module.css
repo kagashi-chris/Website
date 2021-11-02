@@ -1,3 +1,21 @@
 .nav__items {
   margin-left: 4rem;
+  text-decoration: none;
+}
+
+.nav__items:link,
+.nav__items:visited {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s;
+}
+
+.nav__items:hover,
+.nav__items:active {
+  color: inherit;
+  background-color: var(--color-primary-darker);
+  color: #333;
 }

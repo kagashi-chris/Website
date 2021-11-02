@@ -4,20 +4,3 @@
   list-style: none;
   padding-right: 5rem;
 }
-
-.nav__links:link,
-.nav__links:visited {
-  font-size: 1.7rem;
-  font-weight: 400;
-  color: inherit;
-  text-decoration: none;
-  display: block;
-  transition: all 0.3s;
-}
-
-.nav__links:hover,
-.nav__links:active {
-  color: inherit;
-  background-color: var(--color-primary-darker);
-  color: #333;
-}

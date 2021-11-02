@@ -3,8 +3,8 @@ import classes from "./HeaderNavElement.module.css";
 
 const HeaderNavElement = (props) => {
   return (
-    <li className={classes.nav__items}>
-      <a class="main-nav-link" href="#">
+    <li>
+      <a className={classes.nav__items} href="#">
         {props.navName}
       </a>
     </li>
