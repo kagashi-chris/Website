@@ -3,3 +3,18 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
+.nav__items:link,
+.nav__items:visited {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: inherit;
+  display: block;
+  transition: all 0.3s;
+}
+
+.nav__items:hover,
+.nav__items:active {
+  color: #fff;
+  border-radius: 0.5rem;
+  background-color: #f2b680;
+}
