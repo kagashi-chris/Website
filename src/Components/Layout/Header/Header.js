@@ -3,7 +3,7 @@ import HeaderNav from "./HeaderNav";
 import HeaderLogo from "./HeaderLogo";
 import classes from "./Header.module.css";
 
-import placeHolderImg from "../../../assets/placeholderimg.jpg";
+import placeHolderImg from "../../../assets/placeholderimg2.jpg";
 
 const Header = (props) => {
   return (

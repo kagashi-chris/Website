@@ -2,5 +2,10 @@
   display: flex;
   align-items: center;
   list-style: none;
-  padding-right: 5rem;
+  padding-right: 2rem;
+
+  text-align: center;
+  font-weight: 800;
+  color: #333;
+  letter-spacing: -0.5px;
 }
