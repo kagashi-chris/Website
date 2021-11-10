@@ -4,11 +4,7 @@ import classes from "./Section1PanelElement.module.css";
 const Section1PanelElement = (props) => {
   return (
     <div>
-      <img
-        src={props.panelImg}
-        alt="computer on desk"
-        className={classes.panelImg}
-      />
+      <img src={props.panelImg} alt={props.alt} className={classes.panelImg} />
     </div>
   );
 };

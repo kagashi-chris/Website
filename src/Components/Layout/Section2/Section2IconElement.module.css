@@ -1,0 +1,11 @@
+.icon {
+  width: 100%;
+  max-width: 80px;
+  transition: 0.3s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon:hover {
+  transform: scale(1.3);
+}

@@ -10,9 +10,9 @@ import classes from "./Section1Panels.module.css";
 const Section1Panel = () => {
   return (
     <div className={classes.panels}>
-      <Section1PanelElement panelImg={frontEndImg} />
-      <Section1PanelElement panelImg={backEndImg} />
-      <Section1PanelElement panelImg={artImg} />
+      <Section1PanelElement panelImg={frontEndImg} alt={"image of computer"} />
+      <Section1PanelElement panelImg={backEndImg} alt={"image of server"} />
+      <Section1PanelElement panelImg={artImg} alt={"image of drawing"} />
     </div>
   );
 };

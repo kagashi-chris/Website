@@ -7,7 +7,6 @@ const HeaderNav = () => {
     <ul className={classes.nav__links}>
       <HeaderNavElement navName="Skills" />
       <HeaderNavElement navName="Software" />
-      <HeaderNavElement navName="About Me" />
       <HeaderNavElement navName="Projects" />
     </ul>
   );

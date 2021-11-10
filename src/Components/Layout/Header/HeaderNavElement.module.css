@@ -2,11 +2,12 @@
   margin-left: 2rem;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 .nav__items:link,
 .nav__items:visited {
   font-size: 1.7rem;
-  font-weight: 400;
   color: inherit;
   display: block;
   transition: all 0.3s;
