@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import HeaderNav from "./HeaderNav";
 import HeaderLogo from "./HeaderLogo";
 import classes from "./Header.module.css";
-import HeaderImage from "./HeaderImage";
+import headerImg from "../../../assets/placeholderimg3.jpg";
 
 const Header = (props) => {
   return (
@@ -11,7 +11,11 @@ const Header = (props) => {
         <HeaderLogo />
         <HeaderNav />
       </header>
-      <HeaderImage />
+      <img
+        src={headerImg}
+        alt="stylized computer art"
+        className={classes.header__img}
+      ></img>
     </Fragment>
   );
 };
