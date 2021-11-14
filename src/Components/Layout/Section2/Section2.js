@@ -4,7 +4,7 @@ import Section2Icons from "./Section2Icons";
 
 const Section2 = () => {
   return (
-    <div className={classes.section2}>
+    <div className={classes.section2} id="software">
       <p>Software</p>
       <Section2Icons />
     </div>
