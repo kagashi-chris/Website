@@ -1,0 +1,4 @@
+.section3Panel {
+  display: flex;
+  flex-direction: column;
+}

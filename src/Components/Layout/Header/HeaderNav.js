@@ -7,7 +7,7 @@ const HeaderNav = () => {
     <ul className={classes.nav__links}>
       <HeaderNavElement navName="Skills" link="#skill" />
       <HeaderNavElement navName="Software" link="#software" />
-      <HeaderNavElement navName="Projects" link="#project" />
+      <HeaderNavElement navName="Projects" link="#projects" />
     </ul>
   );
 };
